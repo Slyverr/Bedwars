@@ -1,0 +1,154 @@
+######################################
+#              Prestige              #
+######################################
+
+Default: Stone Prestige
+
+Prestige:
+  Stone Prestige:
+    display-name: '&7Stone Prestige'
+    format: 
+      chat: '&7[**✫]'
+      scoreboard: '&7**✫'
+    start: 0
+    end: 99
+  Iron Prestige:
+    display-name: '&fIron Prestige'
+    format: 
+      chat: '&f[***✫]'
+      scoreboard: '&f***✫'
+    start: 100
+    end: 199
+  Gold Prestige:
+    display-name: '&6Gold Prestige'
+    format: 
+      chat: '&6[***✫]'
+      scoreboard: '&6***✫'
+    start: 200
+    end: 299
+  Diamond Prestige:
+    display-name: '&bDiamond Prestige'
+    format: 
+      chat: '&b[***✫]'
+      scoreboard: '&b***✫'
+    start: 300
+    end: 399
+  Emerald Prestige:
+    display-name: '&2Emerald Prestige'
+    format: 
+      chat: '&2[***✫]'
+      scoreboard: '&2***✫'
+    start: 400
+    end: 499
+  Sapphire Prestige:
+    display-name: '&3Sapphire Prestige'
+    format: 
+      chat: '&3[***✫]'
+      scoreboard: '&3***✫'
+    start: 500
+    end: 599
+  Ruby Prestige:
+    display-name: '&4Ruby Prestige'
+    format: 
+      chat: '&4[***✫]'
+      scoreboard: '&4***✫'
+    start: 600
+    end: 699
+  Crystal Prestige:
+    display-name: '&dCrystal Prestige'
+    format: 
+      chat: '&d[***✫]'
+      scoreboard: '&d***✫'
+    start: 700
+    end: 799
+  Opal Prestige:
+    display-name: '&1Opal Prestige'
+    format: 
+      chat: '&1[***✫]'
+      scoreboard: '&1***✫'
+    start: 800
+    end: 899
+  Amethyst Prestige:
+    display-name: '&5Amethyst Prestige'
+    format: 
+      chat: '&5[***✫]'
+      scoreboard: '&5***✫'
+    start: 900
+    end: 999
+  Rainbow Prestige:
+    display-name: '&cR&6a&ei&an&bb&o&5w Prestige'
+    format: 
+      chat: '&c[&6*&e*&a*&b*&d✫&5]'
+      scoreboard: '&6*&e*&a*&b*&d✫'
+    start: 1000
+    end: 1099
+  Iron Prime Prestige:
+    display-name: '&7I&fron &7Pr&fime Prestige'
+    format: 
+      chat: '&7[&f****&7✪]'
+      scoreboard: '&f****&7✪'
+    start: 1100
+    end: 1199
+  Gold Prime Prestige:
+    display-name: '&eGold Prime Prestige'
+    format: 
+      chat: '&7[&e****&6✪&7]'
+      scoreboard: '&e****&6✪'
+    start: 1200
+    end: 1299
+  Diamond Prime Prestige:
+    display-name: '&bDiamond Prime Prestige'
+    format: 
+      chat: '&7[&b****&3✪&7]'
+      scoreboard: '&b****&3✪'
+    start: 1300
+    end: 1399
+  Emerald Prime Prestige:
+    display-name: '&aEmerald Prime Prestige'
+    format: 
+      chat: '&7[&a****&2✪&7]'
+      scoreboard: '&a****&2✪'
+    start: 1400
+    end: 1499
+  Sapphire Prime Prestige:
+    display-name: '&3Sapphire Prime Prestige'
+    format: 
+      chat: '&7[&3****&9✪&7]'
+      scoreboard: '&3****&9✪'
+    start: 1500
+    end: 1599
+  Ruby Prime Prestige:
+    display-name: '&cRuby Prime Prestige'
+    format: 
+      chat: '&7[&c****&4✪&7]'
+      scoreboard: '&c****&4✪'
+    start: 1600
+    end: 1699
+  Crystal Prime Prestige:
+    display-name: '&dCrystal Prime Prestige'
+    format: 
+      chat: '&7[&d****&5✪&7]'
+      scoreboard: '&d****&5✪'
+    start: 1700
+    end: 1799
+  Opal Prime Prestige:
+    display-name: '&9Opal Prime Prestige'
+    format: 
+      chat: '&7[&9****&1✪&7]'
+      scoreboard: '&9****&1✪'
+    start: 1800
+    end: 1899
+  Amethyst Prime Prestige:
+    display-name: '&5Amethyst Prime Prestige'
+    format: 
+      chat: '&7[&5****&8✪&7]'
+      scoreboard: '&5****&8✪&7'
+    start: 1900
+    end: 1999
+  Mirror Prestige:
+    display-name: '&8M&7i&frr&7or Prestige'
+    format: 
+      chat: '&8[&7*&f**&7*✪&8]'
+      scoreboard: '&7*&f**&7*✪'
+    start: 2000
+    end: 2099

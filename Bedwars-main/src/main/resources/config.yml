@@ -1,0 +1,114 @@
+#######################################
+#            Configuration            #
+#######################################
+
+Bedwars-Settings:
+  Countdown: 20
+  LevelUp-Exp: 
+    default: 5000
+    levels:
+      1: 1000
+      2: 2000
+      3: 3500
+      
+  Minimum-Players:
+    Solo: 7
+    Doubles: 14
+    3v3v3v3: 9
+    4v4v4v4: 12
+  
+  Respawn-Time: 5
+  Reconnect:
+    auto-reconnect: true
+    respawn-time: 10
+
+Game-Settings:
+  Game-Phases:
+  - DIAMOND II
+  - EMERALD II
+  - DIAMOND III
+  - EMERALD III
+  - Bed Break
+  - Game End
+  Game-Mechanics:
+    TNT:
+      show-fuse-ticks: false
+      fuse-ticks: 60
+      power: 4
+    Fireball:
+      power: 4
+      speed: 2
+  Time-Played-Rewards:
+    Exp:
+      amount: 25
+      time-played: 90
+    Coins:
+      amount: 10
+      time-played: 90    
+    
+Forge-Settings:
+  Resource-Splitting:
+    enabled: true
+    radius: 1.5
+    
+  Team-Forge:
+    Drop-Limit:
+      Iron: 48
+      Gold: 12
+      Emerald:
+        Solo: 2
+        Doubles: 2
+        3v3v3v3: 4
+        4v4v4v4: 4 
+    Drops:
+    - Iron
+    - GOLD
+    Speeds:
+      Slow:
+        Iron: 36
+        Gold: 12
+      Fast:
+        Iron: 48
+        Gold: 16
+
+  Map-Forge:
+    DIAMOND:
+      limit:
+        Solo: 4
+        Doubles: 4
+        3v3v3v3: 8
+        4v4v4v4: 8
+      tiers:
+        tier-1:
+          title: '&eTier &cI'
+          drop-time: 30
+        tier-2:
+          title: '&eTier &cII'
+          drop-time: 23
+        tier-3:
+          title: '&eTier &cIII'
+          drop-time: 12
+    EMERALD:
+      limit:
+        Solo: 2
+        Doubles: 2
+        3v3v3v3: 4
+        4v4v4v4: 4
+      tiers:
+        tier-1:
+          title: '&eTier &cI'
+          drop-time: 60 
+        tier-2:
+          title: '&eTier &cII'
+          drop-time: 45
+        tier-3:
+          title: '&eTier &cIII'
+          drop-time: 30
+
+Database:
+  enabled: true
+  name: root
+  password: ""
+  url: jdbc:mysql://localhost:3306/bedwars
+  save-userdata: false
+  

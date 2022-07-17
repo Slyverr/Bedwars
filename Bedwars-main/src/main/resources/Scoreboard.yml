@@ -1,0 +1,231 @@
+########################################
+#              Scoreboard              #
+########################################
+
+Game-Scoreboards:
+  Solo:
+    Title:
+      update-ticks: -1
+      titles:
+      - '&e&lBed Wars'
+    lines:
+      line-14:
+        type: DATE
+      line-13:
+        type: EMPTY
+      line-12:
+        type: PHASE
+      line-11:
+        type: EMPTY
+      line-10:
+        type: TEAM
+        value: RED
+      line-9:
+        type: TEAM
+        value: BLUE
+      line-8:
+        type: TEAM
+        value: GREEN
+      line-7:
+        type: TEAM
+        value: YELLOW
+      line-6:
+        type: TEAM
+        value: AQUA
+      line-5:
+        type: TEAM
+        value: WHITE
+      line-4:
+        type: TEAM
+        value: PINK
+      line-3:
+        type: TEAM
+        value: GRAY
+      line-2:
+        type: EMPTY
+      line-1:
+        type: TEXT
+        value: "&ewww.server.net"
+  DOUBLES:
+    Title:
+      update-ticks: -1
+      titles:
+      - '&e&lBed Wars'
+    lines:
+      line-14:
+        type: DATE
+      line-13:
+        type: EMPTY
+      line-12:
+        type: PHASE
+      line-11:
+        type: EMPTY
+      line-10:
+        type: TEAM
+        value: RED
+      line-9:
+        type: TEAM
+        value: BLUE
+      line-8:
+        type: TEAM
+        value: GREEN
+      line-7:
+        type: TEAM
+        value: YELLOW
+      line-6:
+        type: TEAM
+        value: AQUA
+      line-5:
+        type: TEAM
+        value: WHITE
+      line-4:
+        type: TEAM
+        value: PINK
+      line-3:
+        type: TEAM
+        value: GRAY
+      line-2:
+        type: EMPTY
+      line-1:
+        type: TEXT
+        value: "&ewww.server.net"
+  3v3v3v3:
+    Title:
+      update-ticks: -1
+      titles:
+      - '&e&lBed Wars'
+    lines:
+      line-14:
+        type: DATE
+      line-13:
+        type: EMPTY
+      line-12:
+        type: PHASE
+      line-11:
+        type: EMPTY
+      line-10:
+        type: TEAM
+        value: RED
+      line-9:
+        type: TEAM
+        value: BLUE
+      line-8:
+        type: TEAM
+        value: GREEN
+      line-7:
+        type: TEAM
+        value: YELLOW
+      line-6:
+        type: EMPTY
+      line-5:
+        type: STATISTIC
+        value: KILLS
+      line-4:
+        type: STATISTIC
+        value: FINAL KILLS
+      line-3:
+        type: STATISTIC
+        value: BED BROKEN
+      line-2:
+        type: EMPTY
+      line-1:
+        type: TEXT
+        value: "&ewww.server.net"
+  4v4v4v4:
+    Title:
+      update-ticks: -1
+      titles:
+      - '&e&lBed Wars'
+    lines:
+      line-14:
+        type: DATE
+      line-13:
+        type: EMPTY
+      line-12:
+        type: PHASE
+      line-11:
+        type: EMPTY
+      line-10:
+        type: TEAM
+        value: RED
+      line-9:
+        type: TEAM
+        value: BLUE
+      line-8:
+        type: TEAM
+        value: GREEN
+      line-7:
+        type: TEAM
+        value: YELLOW
+      line-6:
+        type: EMPTY
+      line-5:
+        type: STATISTIC
+        value: KILLS
+      line-4:
+        type: STATISTIC
+        value: FINAL KILLS
+      line-3:
+        type: STATISTIC
+        value: BED BROKEN
+      line-2:
+        type: EMPTY
+      line-1:
+        type: TEXT
+        value: "&ewww.server.net"
+Waiting-Scoreboard:
+  lines:
+    line-11: 
+      type: DATE
+    line-10: 
+      type: EMPTY
+    line-9:
+      type: MAP
+    line-8: 
+      type: PLAYERS
+    line-7: 
+      type: EMPTY
+    line-6: 
+      type: COUNTDOWN
+    line-5:
+      type: EMPTY
+    line-4: 
+      type: MODE
+    line-3: 
+      type: VERSION
+    line-2: 
+      type: EMPTY
+    line-1: 
+      type: TEXT
+      value: "&ewww.server.net"
+
+Lobby-Scoreboard:
+  lines:
+    line-12:
+      type: EMPTY
+    line-11: 
+      type: LEVEL
+    line-10:
+      type: EMPTY
+    line-9: 
+      type: PROGRESS
+    line-8: 
+      type: PROGRESS_BAR
+    line-7: 
+      type: EMPTY
+    line-6: 
+      type: COINS
+    line-5:
+      type: EMPTY
+    line-4: 
+      type: STATISTIC
+      value: KILLS
+    line-3: 
+      type: STATISTIC
+      value: WINS
+    line-2: 
+      type: EMPTY
+    line-1: 
+      type: TEXT
+      value: "&ewww.server.net"
+  

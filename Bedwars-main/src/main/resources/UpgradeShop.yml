@@ -1,0 +1,153 @@
+########################################
+#             Upgrade Shop             #
+########################################
+
+Shop:
+  Slot-11:
+    upgrade-type: UPGRADE
+    type: IRON_SWORD
+    name: Sharpened Swords
+    cost:
+      Solo: 4 DIAMOND
+      Duo: 4 DIAMOND
+      3v3v3v3: 8 DIAMOND
+      4v4v4v4: 8 DIAMOND
+    upgrade: Sharpness
+    
+  Slot-12:
+    upgrade-type: TIERED UPGRADE
+    type: IRON_CHESTPLATE
+    name: Protection Upgrade
+    upgrade: Protection
+    tiers:
+      tier-1:
+        name: Protection I
+        cost:
+          Solo: 2 DIAMOND
+          Doubles: 2 DIAMOND
+          3v3v3v3: 4 DIAMOND
+          4v4v4v4: 4 DIAMOND
+      tier-2:
+        name: Protection II
+        cost: 
+          Solo: 4 DIAMOND
+          Doubles: 4 DIAMOND
+          3v3v3v3: 8 DIAMOND
+          4v4v4v4: 8 DIAMOND
+      tier-3:
+        name: Protection III
+        cost:
+          Solo: 8 DIAMOND
+          Doubles: 8 DIAMOND
+          3v3v3v3: 16 DIAMOND
+          4v4v4v4: 16 DIAMOND
+      tier-4:
+        name: Protection IV
+        cost:
+          Solo: 16 DIAMOND
+          Doubles: 16 DIAMOND
+          3v3v3v3: 32 DIAMOND
+          4v4v4v4: 32 DIAMOND
+  Slot-13:
+    upgrade-type: TIERED_UPGRADE
+    type: GOLDEN_PICKAXE
+    name: Maniac Miner
+    upgrade: Maniac_Miner
+    tiers:
+      tier-1:
+        name: Haste I
+        cost: 2 DIAMOND
+      tier-2:
+        name: Haste II
+        cost: 4 DIAMOND
+    description:
+    - All players on your team
+    - permanently gain Haste.
+  Slot-15:
+    upgrade-type: TRAP
+    type: TRIPWIRE HOOK
+    name: It's a trap!
+    trap: Blindness
+    description:
+    - Inflicts Blindness and Slowness
+    - for 8 seconds.
+  Slot-16:
+    upgrade-type: TRAP
+    type: FEATHER
+    name: Counter-Offensive Trap
+    trap: Counter-Offensive
+    description:
+    - Grants Speed II and Jump Boost
+    - II for 15 seconds to allied 
+    - players near your base
+  Slot-17:
+    upgrade-type: TRAP
+    type: REDSTONE_TORCH
+    name: Alarm Trap
+    trap: Alarm
+    description:
+    - Reveals invisible players as
+    - well as their name and team.
+  Slot-20:
+    upgrade-type: TIERED_UPGRADE
+    type: FURNACE
+    name: Forge
+    upgrade: Forge
+    tiers:
+      tier-1:
+        name: Forge I
+        cost:
+          Solo: 2 DIAMOND
+          Doubles: 2 DIAMOND
+          3v3v3v3: 4 DIAMOND
+          4v4v4v4: 4 DIAMOND
+      tier-2:
+        name: Forge II
+        cost: 
+          Solo: 4 DIAMOND
+          Doubles: 4 DIAMOND
+          3v3v3v3: 8 DIAMOND
+          4v4v4v4: 8 DIAMOND
+      tier-3:
+        name: Forge III
+        cost:
+          Solo: 6 DIAMOND
+          Doubles: 6 DIAMOND
+          3v3v3v3: 12 DIAMOND
+          4v4v4v4: 12 DIAMOND
+      tier-4:
+        name: Forge IV
+        cost:
+          Solo: 8 DIAMOND
+          Doubles: 8 DIAMOND
+          3v3v3v3: 16 DIAMOND
+          4v4v4v4: 16 DIAMOND
+    description:
+    - Upgrade resource spawning on
+    - your island.
+  Slot-21:
+    upgrade-type: UPGRADE
+    type: BEACON
+    name: Heal Pool
+    cost: 1 DIAMOND
+    upgrade: Heal Pool
+    description:
+    - Creates a Regeneration field
+    - around your base!
+  Slot-22:
+    upgrade-type: UPGRADE
+    type: DRAGON_EGG
+    name: Dragon Buff
+    cost: 5 DIAMOND
+    upgrade: Dragon_Buff
+    description:
+    - Your team will have 2 dragons
+    - instead of 1 during deathmatch!
+  Slot-25:
+    upgrade-type: TRAP
+    type: IRON_PICKAXE
+    name: Miner Fatigue Trap
+    trap: Mining_Fatigue
+    description:
+    - Inflict Mining Fatigue for 10
+    - seconds.

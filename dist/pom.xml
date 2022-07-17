@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>bedwars-parent</artifactId>
+        <groupId>com.slyvr.bedwars</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>dist</artifactId>
+    <packaging>pom</packaging>
+
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+		
+		<!-- Bedwars main -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-main</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        
+		<!-- Bedwars 1.8 -->
+       	<dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_8_R3</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency> 
+
+		<!-- Bedwars 1.9 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_9_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_9_R2</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.10 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_10_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.11 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_11_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.12 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_12_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.13 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_13_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_13_R2</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.14 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_14_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.15 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_15_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.16 -->
+		<dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_16_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_16_R2</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_16_R3</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.17 -->
+		<dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_17_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+		<!-- Bedwars 1.18 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_18_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_18_R2</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        
+		<!-- Bedwars 1.19 -->
+        <dependency>
+            <groupId>com.slyvr.bedwars</groupId>
+            <artifactId>bedwars-v1_19_R1</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.2.0</version>
+
+                <configuration>
+                    <finalName>Bedwars-${project.parent.version}</finalName>
+                    <appendAssemblyId>false</appendAssemblyId>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <id>package-all</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <shadedArtifactAttached>true</shadedArtifactAttached>
+                             
+                            <descriptors>
+                                <descriptor>src/main/assembly/src.xml</descriptor>
+                            </descriptors>
+                            
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+
+    </build>
+
+</project>

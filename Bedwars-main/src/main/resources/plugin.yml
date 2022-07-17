@@ -1,0 +1,15 @@
+name: Bedwars
+main: com.slyvr.bedwars.Bedwars
+version: 1.0
+author: Slyverr
+api-version: 1.13
+
+description: Bedwars plugin
+
+commands:
+  Bedwars:
+    aliases: [bw]
+  Rejoin:
+  Shout:
+  Play:
+  

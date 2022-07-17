@@ -1,0 +1,339 @@
+####################################
+#               Shop               #
+####################################
+
+Categories:
+  Quick-Buy:
+    type: NETHER_STAR
+  Blocks:
+    type: TERRACOTTA
+  Weapons:
+    type: GOLDEN_SWORD
+  Armour:
+    type: CHAINMAIL_BOOTS
+  Tools:
+    type: STONE_PICKAXE
+  Ranged:
+    type: BOW
+  Potions:
+    type: BREWING_STAND
+  Utilities:
+    type: TNT
+
+Shop:
+  Blocks:
+    Slot-1:
+      item-type: ITEM
+      name: Wool
+      type: WHITE_WOOL
+      amount: 16
+      cost: 4 IRON
+    Slot-2:
+      item-type: ITEM
+      type: TERRACOTTA
+      name: Hardened Clay
+      amount: 16
+      cost: 12 IRON
+    Slot-3:
+      item-type: ITEM
+      type: OAK_WOOD
+      name: Wood
+      amount: 16
+      cost: 4 GOLD
+    Slot-4:
+      item-type: ITEM
+      type: WHITE_STAINED_GLASS
+      name: Blast Proof Glass
+      amount: 4
+      cost: 12 IRON
+    Slot-5:
+      item-type: ITEM
+      type: END_STONE
+      name: Endstone
+      amount: 16
+      cost: 24 IRON
+    Slot-6:
+      item-type: ITEM
+      type: LADDER
+      name: Ladders
+      amount: 16
+      cost: 4 IRON
+    Slot-7:
+      item-type: ITEM
+      type: Obsidian
+      name: Obsidian
+      amount: 4
+      cost: 4 EMERALD
+  Weapons:
+    Slot-1:
+      item-type: ITEM
+      type: STONE_SWORD
+      name: Stone Sword	
+      amount: 1
+      cost: 10 IRON
+      replace: WOODEN_SWORD
+    Slot-2:
+      item-type: ITEM
+      type: IRON_SWORD
+      name: Iron Sword 	
+      amount: 1
+      cost: 7 GOLD
+      replace: WOODEN_SWORD
+    Slot-3:
+      item-type: ITEM
+      type: DIAMOND SWORD
+      name: Diamond Sword	
+      amount: 1
+      cost:
+        SOLO: 4 EMERALD
+        DUO: 4 EMERALD
+        3v3v3v3: 3 EMERALD
+        4v4v4v4: 3 EMERALD
+      replace: WOODEN_SWORD
+    Slot-4:
+      item-type: ITEM
+      type: STICK
+      name: Knockback Stick (Knockback I)	
+      amount: 1
+      cost: 5 GOLD
+      enchants:
+      - Knockback:1
+  Armour:
+    Slot-1:
+      item-type: ARMOR
+      type: CHAINMAIL_LEGGINGS
+      armor: CHAIN
+      name: Chain Armor (Leggings + Boots)
+      cost: 40 IRON
+    Slot-2:
+      item-type: ARMOR
+      name: Iron Armor
+      type: IRON_LEGGINGS
+      armor: IRON
+      cost: 12 GOLD
+    Slot-3:
+      item-type: ARMOR
+      name: Diamond Armor
+      type: DIAMOND_LEGGINGS
+      armor: DIAMOND
+      cost: 6 EMERALD
+  Tools:
+    Slot-1:
+      item-type: TIERED
+      tiers:
+        tier-1:
+          item-type: ITEM
+          type: WOODEN_AXE
+          name: Wooden Axe
+          amount: 1
+          cost: 10 IRON
+          permanent: true
+          enchants:
+          - Efficiency:1
+          
+        tier-2:
+          item-type: ITEM
+          type: STONE_AXE
+          name: Stone Axe
+          amount: 1
+          cost: 10 IRON
+          enchants:
+          - Efficiency:1
+        tier-3:
+          item-type: ITEM
+          type: IRON_AXE
+          name: Iron Axe
+          amount: 1
+          cost: 3 GOLD
+          enchants:
+          - Efficiency:2
+        tier-4:
+          item-type: ITEM
+          type: DIAMOND_AXE
+          name: Diamond Axe
+          amount: 1
+          cost: 6 GOLD
+          enchants:
+          - Efficiency:3
+    Slot-2:
+      item-type: TIERED
+      tiers:
+        tier-1:
+          item-type: ITEM
+          type: WOODEN_PICKAXE
+          name: Wooden Pickaxe
+          amount: 1
+          cost: 10 IRON
+          permanent: true
+          enchants:
+          - Efficiency:1
+        tier-2:
+          item-type: ITEM
+          type: IRON_PICKAXE
+          name: Iron Pickaxe
+          amount: 1
+          cost: 10 IRON
+          enchants:
+          - Efficiency:2
+        tier-3:
+          item-type: ITEM
+          type: GOLDEN_PICKAXE
+          name: Gold Pickaxe
+          amount: 1
+          cost: 3 GOLD
+          enchants:
+          - Efficiency:3
+          - Sharpness:2
+        tier-4:
+          item-type: ITEM
+          type: DIAMOND_PICKAXE
+          name: Diamond Pickaxe
+          amount: 1
+          cost: 6 GOLD
+          enchants:
+          - Efficiency:3
+    Slot-3:
+      item-type: ITEM
+      type: SHEARS
+      name: Shears
+      amount: 1
+      cost: 20 IRON
+      permanent: true
+  Ranged:
+    Slot-1:
+      item-type: ITEM
+      type: BOW
+      name: Bow
+      amount: 1
+      cost: 12 GOLD
+    Slot-2:
+      item-type: ITEM
+      type: BOW
+      name: Bow (Power I)
+      amount: 1
+      cost: 20 GOLD
+      enchants:
+      - Power:1
+    Slot-3:
+      item-type: ITEM
+      type: BOW
+      name: Bow (Power I, Punch I)
+      amount: 1
+      cost: 6 EMERALD
+      enchants:
+      - Power:1
+      - Punch:1
+    Slot-4:
+      item-type: ITEM
+      type: ARROW
+      name: Arrows (x6)
+      amount: 6
+      cost: 2 GOLD
+      price: 2
+  Potions:
+    Slot-1:
+      item-type: POTION
+      type: SPEED
+      name: Speed II Potion
+      amount: 1
+      cost: 1 EMERALD
+      effect: SPEED
+      level: 1
+      duration: 45
+    Slot-2:
+      item-type: POTION
+      type: JUMP
+      name: Jump Boost V Potion
+      amount: 1
+      cost: 1 EMERALD
+      level: 5
+      effect: JUMP
+      duration: 45
+    Slot-3:
+      item-type: POTION
+      type: INVISIBILITY
+      name: Invisibility Potion
+      amount: 1
+      cost: 2 EMERALD
+      level: 2
+      effect: INVISIBILITY
+      duration: 30
+  Utilities:
+    Slot-1: # Golden Apple
+      item-type: ITEM
+      type: GOLDEN_APPLE
+      name: Golden Apple
+      amount: 1
+      cost: 3 GOLD
+    Slot-2: # Bed Bug
+      item-type: ITEM
+      type: SNOWBALL
+      name: Bed Bug (Silverfish Snowball)
+      amount: 1
+      cost: 30 IRON
+    Slot-3: # Dream Defender
+      item-type: ITEM
+      type: WOLF_SPAWN_EGG
+      name: Dream Defender (Iron Golem)
+      amount: 1
+      cost: 120 IRON
+    Slot-4: # FireBall
+      item-type: ITEM
+      type: FIRE_CHARGE
+      name: Fireball 	
+      amount: 1
+      cost: 40 IRON
+    Slot-5: # TNT
+      item-type: ITEM
+      type: TNT
+      name: TNT
+      amount: 1
+      cost: 
+        SOLO: 4 GOLD
+        DUO: 4 GOLD
+        3v3v3v3: 8 GOLD
+        4v4v4v4: 8 GOLD
+    Slot-6: # EnderPearl
+      item-type: ITEM
+      type: ENDER_PEARL
+      name: Ender Pearl
+      amount: 1
+      cost: 4 EMERALD
+    Slot-7: # Water Bucket
+      item-type: ITEM
+      type: WATER_BUCKET
+      name: Water Bucket
+      amount: 1
+      cost: 
+        SOLO: 3 GOLD
+        DUO: 3 GOLD
+        3v3v3v3: 6 GOLD
+        4v4v4v4: 6 GOLD
+    Slot-8: # BridgeEgg
+      item-type: ITEM
+      type: Egg
+      name: Bridge Egg
+      amount: 1
+      cost: 1 EMERALD
+    Slot-9: # Magic Milk 
+      item-type: ITEM
+      type: MILK_BUCKET
+      name: Magic Milk
+      amount: 1
+      cost: 4 GOLD
+    Slot-10: # Sponge
+      item-type: ITEM
+      type: SPONGE
+      name: Sponge (x4)
+      amount: 4
+      cost: 
+        SOLO: 3 GOLD
+        DUO: 3 GOLD
+        3v3v3v3: 6 GOLD
+        4v4v4v4: 6 GOLD
+    Slot-11: # Compact Pop-up Tower
+      item-type: ITEM
+      type: CHEST
+      name: Compact Pop-up Tower
+      amount: 1
+      cost: 24 IRON

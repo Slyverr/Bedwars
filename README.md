@@ -1,0 +1,2 @@
+# Bedwars
+Bedwars plugin
