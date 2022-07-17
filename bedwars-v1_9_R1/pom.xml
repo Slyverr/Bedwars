@@ -24,7 +24,7 @@
         </dependency>
    
         <dependency>
-            <groupId>com.slyvr.api</groupId>
+            <groupId>com.slyvr.bedwars</groupId>
             <artifactId>bedwars-api</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>provided</scope>
